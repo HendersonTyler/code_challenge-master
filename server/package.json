@@ -10,15 +10,16 @@
   },
   "author": "Urpla",
   "devDependencies": {
-    "@types/node": "^11.10.4",
+    "@types/node": "^11.15.49",
     "puppeteer": "^2.1.1",
-    "serverless": "^1.64.0",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.2.2"
+    "serverless": "^1.83.3",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.9"
   },
   "dependencies": {
-    "@types/express": "^4.16.0",
+    "@types/express": "^4.17.11",
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "reflect-metadata": "^0.1.13",
     "serverless-http": "^1.8.0",

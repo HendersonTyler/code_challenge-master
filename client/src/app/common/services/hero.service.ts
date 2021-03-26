@@ -18,7 +18,8 @@ export class HeroService {
   constructor(private http: HttpClient) {}
 
   // Url that your server is running on
-  private BASE_URL = "http://localhost:3000/heroes";
+  private BASE_URL =
+    "https://ut8ukkbhq8.execute-api.us-east-1.amazonaws.com/dev/heroes";
 
   getHeroes(): Observable<Hero[]> {
     return this.http.get<Hero[]>(this.BASE_URL);
