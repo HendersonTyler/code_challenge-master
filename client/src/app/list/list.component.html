@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="card-spacing">
+    <div *ngFor="let hero of heroes" class="card" style="width: 18rem;">
+      <img src="{{hero.photo}}" class="card-img-top" alt={{hero.name}}>
+      <div class="card-body">
+        <h5 class="card-title">{{ hero.name }}</h5>
+        <div class="card-text" [innerHTML]="(hero.bio)">
+        </div>
+        <a routerLink="/heroes/{{hero.id}}" class="btn btn-danger">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>

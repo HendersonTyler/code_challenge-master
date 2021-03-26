@@ -1,0 +1,10 @@
+  <div class="container">
+    <div class="card m-3">
+      <img src="{{hero.photo}}" class="card-img-top" alt="{{hero.name}}">
+      <div class="card-body">
+        <h5 class="card-title">{{hero.name}}</h5>
+        <div class="card-text" [innerHTML]="hero.bio"></div>
+        <a routerLink="/heroes" class="btn btn-danger">Back</a>
+      </div>
+    </div>
+  </div>
